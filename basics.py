@@ -8,4 +8,5 @@ for questionIndex, question in enumerate(data):
     for key in question:
         print(questionIndex, key)
         for answerIndex, answer in enumerate(question[key]):
-            print(' ', answerIndex, answer)
+            # print(' ', answerIndex, answer)
+            print('xxx')
