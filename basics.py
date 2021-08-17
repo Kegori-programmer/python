@@ -8,5 +8,5 @@ for qIndex, question in enumerate(data):
     for key in question:
         print(qIndex, key)
         for answerIndex, answer in enumerate(question[key]):
-            print('test')
             # print(' ', answerIndex, answer)
+            print('xxx')
